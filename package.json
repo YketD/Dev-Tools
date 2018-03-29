@@ -2,9 +2,10 @@
   "name": "dev-tools",
   "version": "0.0.0",
   "private": true,
+  "mode": "development",
   "scripts": {
     "start": "node ./bin/www",
-    "build": "webpack app.js dist/bundle.js"
+    "build": "webpack public/javascripts/color-change.js dist/bundle.js"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
