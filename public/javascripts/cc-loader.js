@@ -1,3 +1,5 @@
-import {$,jquery} from 'jquery'
-export var bg = $(".content");
-export var colorbutton = $(".colorchanger");
+import {$, jQuery} from 'jquery';
+
+var bg = $(".content");
+var colorbutton = $(".colorchanger");
+export { bg, colorbutton };
