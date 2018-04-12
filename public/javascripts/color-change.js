@@ -1,6 +1,7 @@
 import { bg } from "./cc-loader";
 import { colorbutton } from "./cc-loader";
 
+
 colorbutton.click(function () {
     bg.css("background-color", getRandomColor())
 });

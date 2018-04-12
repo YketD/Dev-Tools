@@ -1,10 +1,6 @@
-<<<<<<< Updated upstream
-import {$, jQuery} from 'jquery';
+var bg = document.getElementById("content");
 
-var bg = $(".content");
-var colorbutton = $(".colorchanger");
+var colorbutton = document.getElementById("color");
 export { bg, colorbutton };
-=======
-export var bg = $(".content");
-export var colorbutton = $(".colorchanger");
->>>>>>> Stashed changes
+
+
