@@ -5,7 +5,9 @@
   "mode": "development",
   "scripts": {
     "start": "node ./bin/www",
-    "build": "webpack"
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "jshint": "jshint public/javascripts/cc-loader.js public/javascripts/color-change.js bin/www app.js"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
@@ -19,6 +21,7 @@
     "webpack": "^4.2.0"
   },
   "devDependencies": {
+    "jshint": "^2.9.5",
     "webpack-cli": "^2.0.12"
   }
 }
