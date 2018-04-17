@@ -1,6 +1,6 @@
-var bg = document.getElementById("content");
+var bg = $("#content");
 
-var colorbutton = document.getElementById("color");
+var colorbutton = $("#colorchanger");
 export { bg, colorbutton };
 
 

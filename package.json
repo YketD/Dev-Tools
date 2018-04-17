@@ -5,7 +5,7 @@
   "mode": "development",
   "scripts": {
     "start": "node ./bin/www",
-    "build": "webpack public/javascripts/color-change.js dist/bundle.js"
+    "build": "webpack"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
