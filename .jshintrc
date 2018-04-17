@@ -1,3 +1,25 @@
 {
-  "esversion": 6
+  "esversion": 6,
+  
+ //Laat maximaal 50 errors zien dan geeft het op(laat de andere errors niet zien).
+ "maxerr": 50,
+ //Een functie mag maximaal 8 parameters hebben.
+ "maxparams": 8,
+ //Controleer hoeveel nested blocks er mogen zijn. Hierdoor wordt de leesbaarheid van een code beter.
+ "maxdepth": 5,
+ //Je mag inner variables hebben die dezelfde naam hebben als globale variabelen.
+ "shadow": false,
+ //Krijgt een error als er een ongebruikte variabele is gedeclareerd.
+ "unused": true,
+ //Hiermee kan je logical operators zoals && || gebruiken.
+ "bitwise": false,
+ //Je mag wel ++ of -- gebruiken.
+ "plusplus": false,
+ //Je mag geen functies binnen een loop definiëren. Dit moet er buiten!
+ "loopfunc": true,
+ //Je mag kijken of een variable == null is. Dit gebruiken we vaak om code te debuggen/keuzes te maken bij if statements.
+ "eqnull": true,
+ //Je mag variables zoals deze maken: var a; Hierdoor hoef je ze dus geen waarde te geven. 
+ "varstmt": false
+
 }
