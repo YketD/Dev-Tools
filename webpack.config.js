@@ -1,12 +1,14 @@
 
 const webpack = require('webpack');
+console.log(__dirname)
+var path = __dirname + '\\public\\javascripts\\'
 module.exports = {
     entry: {
-        bundle1: 'D:\\GitHub\\Dev-Tools\\public\\javascripts\\cc-loader.js',
-        bundle2: 'D:\\GitHub\\Dev-Tools\\public\\javascripts\\color-change.js'
+        bundle1:  path + 'cc-loader.js',
+        bundle2:  path + 'color-change.js'
     },
     output: {
-        path: 'D:\\GitHub\\Dev-Tools\\public\\javascripts',
+        path: path + 'public\\javascripts',
         filename: "[name].js"
     },
     plugins: [
